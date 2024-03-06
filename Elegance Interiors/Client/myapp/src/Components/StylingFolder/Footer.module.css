@@ -1,0 +1,59 @@
+.main{
+    position: relative;
+    margin-top: 194px;
+    display: flex;
+    height: fit-content;
+    background-color: rgba(0, 0, 0, 0.945);
+    gap: 50px;
+}
+.first{
+    color: white;
+    width: 50%;
+    position: relative;
+    margin-left: 20px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.first hr{
+    width: 90%;
+}
+.first p{
+    color: white;
+}
+.second{
+    position: relative;
+    margin-top: 50px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    gap: 20px;
+}
+.second input{
+    width: 50%;
+    height: 50px;
+}
+.second h1{
+    color: white;
+}
+.second p{
+    color: white;
+}
+@media(max-width:1000px){
+    .main{
+        flex-direction: column;
+        gap: 0px;
+    }
+    .first{
+        width: 100%;
+    }
+    .second{
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .second p{
+        text-align: center;
+    }
+}

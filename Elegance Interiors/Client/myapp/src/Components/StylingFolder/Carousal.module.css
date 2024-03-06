@@ -1,0 +1,65 @@
+.ImageDiv{
+     position: relative;
+     margin-top: 7%; 
+    width: 100%;
+    height: fit-content;
+    background-color: antiquewhite;
+}
+.image{
+    filter: brightness(30%);
+    object-fit: cover;
+    width: 100%;
+    height: 450px;
+}
+.picText{
+    position: relative;
+    margin-top: -350px;
+    /* margin-left: 20px; */
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* text-align: left; */
+
+}
+.picText h1 {
+    font-family: 'Brush Script MT, Brush Script Std, cursive';
+    color: #DA9733;
+    font-size: 55px;
+    font-style:italic;
+    font-weight: bolder
+}
+.picText p{
+    color: white;
+    font-size:14px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.buttons{
+    display: flex;
+    gap: 20px;
+}
+.buttons a{
+    /* width: 50px; */
+    font-size: small;
+}
+
+@media(max-width:1000px){
+    .picText{
+        width: 100%;
+    }
+    .picText h1{
+        font-size: 4vmax;
+    }
+    .picText p{
+        font-size: 3.2vmin;
+        width: 90%;
+    }
+    .buttons a{
+        font-size: 3vmin;
+    }
+}

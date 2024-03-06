@@ -1,0 +1,97 @@
+#nav{
+    width: 100%;
+    height: 80px;
+    /* height: fit-content; */
+    display: flex;
+    justify-content: space-between;
+    /* gap: 150px; */
+    /* background-color: aqua; */
+    top: 0px;
+    position: fixed;
+    background-color: rgba(232, 228, 228, 0.932);
+}
+.logoHeader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 50%; */
+}
+.logoHeader h1{
+    width: 100%;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 22px;
+    letter-Spacing: 3px;
+}
+.logo{
+    display: block;
+    background-size: cover;
+    object-fit: 'cover';
+    height: 60px;
+    width: 70px;
+    margin-left: 1%;
+}
+ul{
+    height: 80px;
+    display: flex;
+    /* justify-content: flex-start;  */
+    align-items:center; 
+    /* width: 50%; */
+}
+ul li{
+    display: inline-block;
+    padding-left: 50px;
+}
+form{
+    justify-content: center;
+    align-items: center;
+}
+form input{
+    height: 45px;
+}
+form button{
+    height: 45px;
+}
+
+@media (max-width: 1000px){
+    .logoHeader h1{
+        font-size: 3.2vmin;
+    }
+    ul{
+        font-size: 2.8vmin;
+    }
+    #shopMenu{
+        font-size: 2vmin;
+    }
+    #servicesMenu{
+        font-size: 2vmin;
+    }
+    #anchorTags{
+        font-size: 2.8vmin;
+    }
+    #searchBar{
+        width: 50%;
+        height: 40px;
+    }
+    #SearchBtn{
+        height: 38px;
+    }
+}
+@media (max-width: 690px){
+    #searchBar{
+        display: none;
+    }
+    #SearchBtn{
+        display: none;
+    }
+    #nav{
+        justify-content: center;
+    }
+
+}
+@media (max-width: 550px){
+    ul{
+        display: none;
+    }
+}
