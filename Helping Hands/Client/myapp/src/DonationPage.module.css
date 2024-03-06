@@ -1,0 +1,108 @@
+.LogoPic{
+    position: relative;
+    margin-top: 2%;
+    margin-left: 6%;
+    height: 45px;
+    object-fit: cover;
+}
+.main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color: aliceblue; */
+    height: fit-content;
+    gap: 35px;
+}
+.header{
+    color:  #FF7070;
+    font-size: 40px;
+    font-weight: bolder;
+    font-family:sans-serif;
+    text-align: center;
+    text-wrap: balance;
+    /* background-color: antiquewhite; */
+}
+
+.DonationButtons{
+    /* background-color: aqua; */
+    display: flex;
+    width: fit-content;
+    gap: 100px;
+}
+.cashBtn{
+    border-color:#FF7070;
+    border-radius: 0.5rem;
+    border-style: solid;
+    background-color: white;
+    width: 250px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.cashBtn:hover{
+    transition: 0.5s ease;
+    filter: drop-shadow(10px 4px 0px #FF7070);
+}
+.cashText{
+    letter-spacing: 1px;
+    font-weight: light;
+    font-size: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #FF7070;
+    text-decoration: none;
+}
+
+@media (max-width: 988px) {
+    .header{
+        font-size: 4vmax;
+    }
+    .DonationButtons{
+        width: 90%;
+        gap: 15px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .cashImg{
+        width: 145px;
+        object-fit: cover;
+    }
+    .foodImg{
+        width: 145px;
+        object-fit: cover;
+    }
+    .clothImg{
+        width: 145px;
+        object-fit: cover;
+    }
+    .cashBtn{
+        width: 80%;
+    }
+
+}
+@media (max-width: 650px){
+    .LogoPic{
+        height: 30px;
+    }
+    .cashBtn{
+        height: 200px;
+        gap: 0px;
+    }
+    .cashImg{
+        margin-top: 30px;
+        width: 100px;
+    }
+    .foodImg{
+        margin-top: 30px;
+        width: 100px;
+    }
+    .clothImg{
+        margin-top: 30px;
+        width: 100px;
+    }
+}

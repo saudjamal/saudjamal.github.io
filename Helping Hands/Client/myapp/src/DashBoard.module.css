@@ -1,0 +1,530 @@
+.logoNav{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    width: 100%;
+    position: relative;
+    top: 30px;
+}
+.Logo{
+    position: relative;
+    left: 30px;
+    object-fit: cover;
+    height: 40px;
+    width: 90px;
+}
+
+.profilePic{
+    position: relative;
+    right: 20px;
+    object-fit: cover;
+    height: 40px;
+    width: 40px;
+}
+.main{
+    display: flex;
+}
+.menuNav{
+    position: relative;
+    top: 40px;
+    left: 25px;
+    width: 20%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+
+.menuTitle{
+    position: relative;
+    width: 100%;
+    height: fit-content;
+    color:  rgb(183, 177, 177);
+    font-size: 21px;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.buttonsDiv{
+    position: relative;
+    top: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+}
+
+.dashBtn{
+    color: white;
+    letter-spacing: 1px;
+    font-size: medium;
+    background-color: #FF7070;
+    border-radius: 0.15rem;
+    border: none;
+    height: 45px;
+    width: 100%;
+}
+
+.UserProfileBtn{
+    color:  white;
+    letter-spacing: 1px;
+    font-size: medium;
+    background-color: #FF7070;
+    border-radius: 0.15rem;
+    border: none;
+    height: 45px;
+    width: 100%;
+}
+
+.FoundationsBtn{
+    color: rgb(183, 177, 177);
+    letter-spacing: 1px;
+    font-size: medium;
+    background-color: white;
+    border-radius: 0.15rem;
+    border: none;
+    height: 45px;
+    width: 100%;
+}
+
+.FoundationsBtn:hover{
+    background-color: #FF7070;
+    color: white;
+    transition: 0.5s ease-in-out;
+}
+
+.HomeBtn{
+    color:  rgb(183, 177, 177);
+    letter-spacing: 1px;
+    font-size: medium;
+    background-color: white;
+    border-radius: 0.15rem;
+    border: none;
+    height: 45px;
+    width: 100%;
+}
+
+.HomeBtn:hover{
+    background-color: #FF7070;
+    color: white;
+    transition: 0.5s;
+}
+
+.DashTeams{
+    height: 200px;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.teams{
+    position: relative;
+    top: 50px;
+    font-size: medium;
+    color: rgb(183, 177, 177);
+    letter-spacing: 1px;
+    font-weight: 500;
+    height: fit-content;
+}
+
+.Design{
+    position: relative;
+    top: 35px;
+    left: 30px;
+    letter-spacing: 2px;
+    font: caption;
+    font-size: smaller;
+    width: fit-content;
+    height: fit-content;
+}
+.Devlopment{
+    position: relative;
+    top: 15px;
+    left: 30px;
+    letter-spacing: 1px;
+    font: caption;
+    font-size: smaller;
+    color: rgb(45, 40, 40);
+    height: fit-content;
+    width: fit-content;
+}
+.secondaryDiv{
+    position: relative;
+    left: 150px;
+    top: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.717);
+    width: 68%;
+}
+.div1{
+    display: flex;
+    width: 100%;
+    height: fit-content;
+}
+.recordDiv{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+.DashboardHeader{
+    font-weight: bolder;
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+.RecentDonationHeader{
+    font-size: 15px;
+    font-weight: 500;
+}
+.scrollBar{
+    display: flex;
+    flex-direction: column;
+    border: none;
+    overflow: auto;
+    border-radius: 0.5rem;
+    background-color: #faf7f7;
+    height: 200px;
+    width: 95%;
+}
+.infoDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    background-color: #FF7070;
+    gap: 5px;
+    position: relative;
+    width: 100%;
+    height: 60px;
+    border: none;
+    border-radius: 0.5rem;
+    margin-bottom: 10px;
+}
+.humanPic{
+    object-fit: cover;
+}
+.nameDate{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start
+}
+.Name{
+    position: relative;
+    top: -10px;
+    font-size: medium;
+    font-weight: 500;
+    width: 65%;
+}
+.Date{
+    position: relative;
+    top: 10px;
+    right: 30px;
+    font-size: small;
+    color: rgb(43, 41, 41);
+}
+.amount{
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.numbersDiv{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 50px;
+    width: 35%;
+    height: fit-content;
+    gap: 10px;
+}
+.numberOfDonations{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2.2px solid black;
+    border-style: dashed;
+    border-radius: 1rem;
+    height: 200px;
+}
+.numberOfDonations h2{
+    text-align: center;
+    font-weight: 500;
+}
+.numberOfDonations h1{
+    position: relative;
+    top: -35px;
+    text-align: center;
+    color: #FF7070;
+    font-size: 45px;
+    font-weight: 500;
+}
+.percentageDrop{
+    position: relative;
+    top: -45px;
+}
+.people{
+    position: relative;
+    top: -40px;
+}
+.TotalDonations{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2.2px solid black;
+    border-style: dashed;
+    border-radius: 1rem;
+    height: 200px;
+}
+.TotalDonations h2{
+    text-align: center;
+    font-weight: 500;
+}
+.TotalDonations h1{
+    position: relative;
+    top: -35px;
+    text-align: center;
+    color: #FF7070;
+    font-size: 40px;
+    font-weight: 500;
+}
+.graph{
+    object-fit: cover;
+    position: relative;
+    top: -45px;
+}
+.div2{
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    width: 75%;
+}
+.div2 h2{
+    font-weight: 500;
+}
+.div2.scrollBar{
+    display: flex;
+    flex-direction: column;
+}
+.tableBtn{
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: 500;
+    width: 100%;
+    height: 60px;
+    border: none;
+    border-radius: 0.3rem;
+    background-color: #f4c6c6;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 1000px){
+    .Logo{
+        height: 35px;
+        width: 80px;
+    }
+    .profilePic{
+        height: 35px;
+        width: 35px;
+    }
+    .menuTitle{
+        font-size: 3.2vmin;
+    }
+    .dashBtn{
+        display: none;
+    }
+    .FoundationsBtn{
+        font-size: 3.2vmin;
+    }
+    .HomeBtn{
+        font-size: 3.2vmin;
+    }
+    .UserProfileBtn{
+        font-size: 3.2vmin;
+    }
+    .numberOfDonations h1,h2{
+        font-size: 2.8vmax;
+    }
+    .TotalDonations h1,h2{
+        font-size: 2.8vmax; 
+    }
+    .percentageDrop{
+        width: 50%;
+    }
+    .graph{
+        width: 50%;
+    }
+    .people{
+        width: 50%;
+    }
+    .tableBtn{
+        font-size: 3.2vmin;
+    }
+    .Name{
+        font-size: 3.2vmin;
+    }
+    .Date{
+        font-size: 2.5vmin;
+    }
+    .amount{
+        font-size: 3vmin;
+    }
+}
+@media (max-width: 930px){
+    .menuNav{
+        top: 10px;
+        left: 0px;
+        flex-direction: row;
+        width: 100%;
+        align-items: center;
+    }
+    .buttonsDiv{
+        flex-direction: row;
+        top: 25px;
+    }
+    .secondaryDiv{
+        position: relative;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        height: fit-content;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    .div1{
+        justify-content: center;
+        gap: 35px;
+        flex-direction: column;
+    }
+    .numbersDiv{
+        flex-direction: row;
+        width: 100%;
+        left: 0px;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+    }
+    .numberOfDonations{
+        width: 42%;
+    }
+    .TotalDonations{
+        width: 42%;
+    }
+    .recordDiv{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .scrollBar{
+        background-color: white;
+        width: 90%;
+        align-items: center;
+        height: 155px;
+    }
+    .infoDiv{
+        width: fit-content;
+    }
+    .div2{
+        align-items: center;
+    }
+    .teams{
+        display: none;
+    }
+    .Design{
+        display: none;
+    }
+    .Devlopment{
+        display: none;
+    }
+    .main{
+        flex-direction: column;
+    }
+    .menuTitle{
+        display: none;
+    }
+}
+@media (max-width: 780px){
+    .numberOfDonations{
+        gap: 10px;
+    }
+    .TotalDonations{
+        gap: 10px;
+    }
+}
+@media (max-width: 512px){
+    .numberOfDonations{
+        gap: 15px;
+    }
+    .TotalDonations{
+        gap: 15px;
+    }
+}
+@media (max-width: 500px){
+    .Logo{
+        left: 0px;
+    }
+}
+@media (max-width: 300px){
+    .Logo{
+        height: 30px;
+        width: 70px;
+    }
+    .profilePic{
+        height: 25px;
+        width: 25px;
+    }
+}
+@media (height: 1180px){
+    .numberOfDonations h1,h2{
+        font-size: 3.1vmin;
+    }
+    .tableBtn{
+        font-size: 2.8vmin;
+    }
+    .Name{
+        font-size: 2.5vmin;
+    }
+    .Date{
+        font-size: 2vmin;
+    }
+}
+@media (height: 1180px){
+    .numberOfDonations h1,h2{
+        font-size: 3.1vmin;
+    }
+    .tableBtn{
+        font-size: 2.8vmin;
+    }
+    .Name{
+        font-size: 2.5vmin;
+    }
+    .Date{
+        font-size: 2vmin;
+    }
+}
+@media (height: 1368px){
+    .numberOfDonations h1,h2{
+        font-size: 3.1vmin;
+    }
+    .tableBtn{
+        font-size: 2.8vmin;
+    }
+    .Name{
+        font-size: 2.5vmin;
+    }
+    .Date{
+        font-size: 2vmin;
+    }
+}
+@media(max-width: 280px){
+    .numberOfDonations{
+        height: 160px
+    }
+    .TotalDonations{
+        height: 160px
+    }
+}

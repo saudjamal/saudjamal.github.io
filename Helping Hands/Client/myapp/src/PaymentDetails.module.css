@@ -1,0 +1,484 @@
+.main{
+    display: flex;
+    /* background-color: antiquewhite; */
+    gap: 60px;
+}
+.overlap1{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 38%;
+    height: fit-content;
+
+}
+.backgroundPicture{
+    width: 100%;
+    object-fit: cover;
+    height: 570px;
+}
+.innerForm{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 20px;
+    width: 80%;
+    height: fit-content;
+    gap: 80px;
+
+}
+.Logo{
+    height: fit-content;
+    width: fit-content;
+    object-fit: cover;
+}
+.optionsDiv{
+    border-radius: 17px;
+    display: flex;
+    flex-direction: column;
+    background-color: #ff7070b0;
+    padding: 0px 12px 20px 12px;
+    gap: 0px;
+}
+
+.DropDownDiv{
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+.formHeader1{
+    color: #ffffff;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    /* left: 34px; */
+    letter-spacing: 0.2px;
+    line-height: 33px;
+}
+.formHeader2 {
+    color: #ffffff;
+    font-family: "Outift", Helvetica;
+    font-size: 20px;
+    font-weight: 700;
+    /* left: 34px; */
+    letter-spacing: 0.5px;
+    line-height: 21.4px;
+    white-space: nowrap;
+}
+.Charity{
+    background-color: #ffffff;
+    width: 20%;
+    height: 38px;
+    border-radius: 7px 0px 0px 7px;
+    font-weight: 700;
+    padding-top: 12px;
+    color: #484848;
+    text-align: center;
+    font-size: large;
+    letter-spacing: 0.5px;
+}
+.FoundationsDropDown{
+    background-color: #ffffff;
+    width: 70%;
+    height: 50px;
+    padding: 15px 20px;
+    border-radius: 0px 7px 7px 0px;
+    font-weight: 700;
+    color: #484848;
+    text-align: center;
+    font-size: medium;
+    letter-spacing: 0.5px;
+    border: none;
+}
+.amountEntry{
+    align-items: center;
+    display: flex;
+    height: 50px;
+}
+.amountLabel {
+    color: #ffffff;
+    font-family: "Outift", Helvetica;
+    font-size: large;
+    font-weight: 500;
+    letter-spacing: .2px;
+    /* line-height: 24.1px; */
+    white-space: nowrap;
+}
+.amount{
+    background-color: #ffffff;
+    width: 20%;
+    height: 38px;
+    border-radius: 7px 0px 0px 7px;
+    font-weight: 600;
+    color: #484848;
+    text-align: center;
+    padding-top: 12px;
+    font-size: large;
+    letter-spacing: 0.5px;
+}
+.amountInput{
+    width: 70%;
+    height: 48px;
+    border: none;
+    border-radius: 0px 7px 7px 0px;
+}
+  
+  .amountInput::placeholder{
+    color: #b7b7b7;
+    letter-spacing: 1px;
+    font-size: 18px;
+}
+#proceedBtn {
+    font-size: 15px;
+    font-weight: 700;
+    color: white;
+    background-color: #fc7c7cb0;
+    width: 91%;
+    border-color: white;
+    border-radius: 7px;
+    border: none;
+    height: 48px;
+    margin-top: 20px;
+}
+#proceedBtn:hover{
+    transition:  0.5s ease;
+    background-color: #f7c2c2;
+    color: #f86666;
+}
+.overlap2{
+    display: flex;
+    width: 70%;
+    height: fit-content;
+}
+.formDiv{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 70%;
+    height: fit-content;
+    /* padding: 0px 12px 0px 0px; */
+}
+.paymentcodes{
+    display: flex;
+    width: fit-content;
+    gap: 50px;
+}
+.addressDiv{
+    width: fit-content;
+    display: flex;
+    gap: 50px;
+}
+.addInputDiv{
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+.StateInputDiv{
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+.CVCInputDiv{
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+.zipInputDiv{
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+.stateHeader {
+    color: #000000;
+    font-family: "Outfit", Helvetica;
+    font-size: 22px;
+    font-weight: 400;
+    height: 33px;
+    letter-spacing: 0;
+    line-height: 33.1px;
+    white-space: nowrap;
+    margin-top: 10px;
+  }
+  
+  .CityHeader {
+    color: #000000;
+    font-family: "Outfit", Helvetica;
+    font-size: 22px;
+    font-weight: 400;
+    height: 33px;
+    letter-spacing: 0;
+    line-height: 33.1px;
+    white-space: nowrap;
+    margin-top: 10px;
+  }
+  
+  .CvcHeader {
+    color: #000000;
+    font-family: "Outfit", Helvetica;
+    font-size: 22px;
+    font-weight: 400;
+    height: 33px;
+    letter-spacing: 0;
+    line-height: 33.1px;
+    white-space: nowrap;
+    margin-top: 10px;
+  }
+  
+  .ZipHeader{
+    color: #000000;
+    font-family: "Outfit", Helvetica;
+    font-size: 22px;
+    font-weight: 400;
+    height: 33px;
+    letter-spacing: 0;
+    line-height: 33.1px;
+    white-space: nowrap;
+    margin-top: 10px;
+  }
+  
+  .CardNumHeader {
+    color: #000000;
+    font-family: "Outfit", Helvetica;
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 33.1px;
+    white-space: nowrap;
+    margin-top: -1px;
+  }
+
+  .HolderHeader{
+    color: #000000;
+    font-family: "Outfit", Helvetica;
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 33.1px;
+    white-space: nowrap;
+    margin-top: 10px;
+  }
+  .CardNumInput{
+    width: 49%;
+    height: 50px;
+    position: relative;
+    margin-top: -8px;
+    border-radius: 0.4rem;
+    border: none;
+    background-color: #f2f4f5;
+  }
+  
+  .CardNumInput::placeholder{
+    color: #b7b7b7;
+    letter-spacing: 1px;
+    font-size: 18px;
+  }
+  .HolderInput{
+    width: 49%;
+    height: 50px;
+    position: relative;
+    margin-top: -8px;
+    border-radius: 0.4rem;
+    border: none;
+    background-color: #f2f4f5;
+  }
+  
+  .HolderInput::placeholder{
+    color: #b7b7b7;
+    letter-spacing: 1px;
+    font-size: 18px;
+  }
+  .cityInput{
+    width: 100%;
+    height: 50px;
+    position: relative;
+    margin-top: -8px;
+    border-radius: 0.4rem;
+    border: none;
+    background-color: #f2f4f5;
+  }
+  
+  .cityInput::placeholder{
+    color: #b7b7b7;
+    letter-spacing: 1px;
+    font-size: 18px;
+  }
+  .stateInput{
+    width: 100%;
+    height: 50px;
+    position: relative;
+    margin-top: -8px;
+    border-radius: 0.4rem;
+    border: none;
+    background-color: #f2f4f5;
+  }
+  
+  .stateInput::placeholder{
+    color: #b7b7b7;
+    letter-spacing: 1px;
+    font-size: 18px;
+  }
+  .CvcInput{
+    width: 100%;
+    height: 50px;
+    position: relative;
+    margin-top: -8px;
+    border-radius: 0.4rem;
+    border: none;
+    background-color: #f2f4f5;
+  }
+  
+  .CvcInput::placeholder{
+    color: #b7b7b7;
+    letter-spacing: 1px;
+    font-size: 18px;
+  }
+  .zipCodeInput{
+    width: 100%;
+    height: 50px;
+    position: relative;
+    margin-top: -8px;
+    border-radius: 0.4rem;
+    border: none;
+    background-color: #f2f4f5;
+  }
+  
+  .zipCodeInput::placeholder{
+    color: #b7b7b7;
+    letter-spacing: 1px;
+    font-size: 18px;
+  }
+  .DonateBtn{
+    font-size: 18px;
+    font-weight: 700;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: #FF7070;
+    border-color: white;
+    border-radius: 5px;
+    width: 22%;
+    margin-top: 20px;
+    height: 50px;
+  }
+
+  .DonateBtn:hover{
+    transition: 0.5s ease;
+    color: #FF7070;
+    background-color: #f7c2c2 ;
+  }
+
+@media (max-width: 1000px) {
+    .main{
+        flex-direction: column;
+    }
+    .overlap1{
+        width: 100%;
+    }
+    .backgroundPicture{
+       filter: brightness(90%);
+    }
+    /* .overlap2{
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    } */
+    .formDiv{
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        gap: 0px;
+    }
+    .CardNumInput{
+        width: 95%;
+    }
+    .CardNumHeader{
+        width: 95%;
+    }
+    .HolderHeader{
+        width: 95%;
+    }
+    .HolderInput{
+        width: 95%;
+    }
+    .addressDiv{
+        width: 96%;
+        gap: 32px;
+    }
+    .paymentcodes{
+        width: 96%;
+        gap: 32px;
+    }
+    .DonateBtn{
+        width: 25%;
+        margin-bottom: 20px;
+        font-size: 3.2vmin;
+    }
+     .formHeader1 {
+        font-size: 3.3vmax;
+    }
+    
+    .formHeader2 {
+        font-size: 2.5vmax;
+    }
+    
+    .amountLabel {
+        font-size: 1.9vmax;
+    }
+    
+    .Charity {
+        font-size: 2.2vmax;
+    }
+    .FoundationsDropDown {
+        font-size: 1.8vmax;
+    }
+    .amount{
+        font-size: 2.2vmax;
+    }
+    .amountInput::placeholder {
+        font-size: 2vmax;
+    }
+    .heading{
+        font-size: 3vmax;
+    }
+    .CardNumHeader{
+        font-size: 2.8vmax;
+    }
+    .CardNumInput::placeholder{
+        font-size: 3.5vmin;
+    }
+    .HolderHeader{
+        font-size: 2.8vmax;
+    }
+    .HolderInput::placeholder{
+        font-size: 3.5vmin;
+    }
+    .CityHeader{
+        font-size: 2.8vmax;
+    }
+    .cityInput::placeholder{
+        font-size: 3.5vmin;
+    }
+    .stateHeader{
+        font-size: 2.8vmax;
+    }
+    .stateInput{
+        font-size: 2.8vmax;
+    }
+    .stateInput::placeholder{
+        font-size: 3.5vmin;
+    }
+    .CvcHeader{
+        font-size: 2.5vmax;
+    }
+    .CvcInput::placeholder{
+        font-size: 3.5vmin;
+    }
+    .ZipHeader{
+        font-size: 2.8vmax;
+    }
+    .zipCodeInput::placeholder{
+        font-size: 3.5vmin;
+    }
+
+
+}
